@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  font-family: "TexGyreAdventor";
+  font-family: "Tex_Gyre_Adventor";
 }
 ::selection{
   color: red;
