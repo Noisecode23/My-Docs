@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: "Tex_Gyre_Adventor";
-}
 ::selection{
   color: red;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Neue-Montreal';
+    src: url(/Fonts/NeueMontreal-Regular.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'TexGyreAdventor';
+    src: url(/Fonts/texgyreadventor.woff) format('woff');
+  }
+
 }

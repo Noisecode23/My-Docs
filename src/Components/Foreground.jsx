@@ -25,7 +25,7 @@ function Foreground() {
   ]
   return (
     <>
-    <div ref={ref} className='w-full z-[3]  h-full fixed flex top-0 left-0 flex-wrap gap-5 p-5'>
+    <div ref={ref} className='w-full z-[3]  h-full fixed flex top-0 left-0 flex-wrap gap-5 p-5 font-TexGyreAdventor'>
       {data.map((item, index)=>(
         <Card data={item} reference={ref} />
       ))}
